@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', function () {
     speakerImg.addEventListener('click', () => {
         if (isPlaying) {
             audioFile.pause();
-            speakerImg.src = "../../01b-Home-Imgs/speaker-off.png"; // Change to 'off' icon
+            speakerImg.src = "../../images/speaker-off.png"; // Change to 'off' icon
         } else {
             audioFile.play();
-            speakerImg.src = "../../01b-Home-Imgs/speaker-on.png"; // Change to 'on' icon
+            speakerImg.src = "../../images/speaker-on.png"; // Change to 'on' icon
         }
         isPlaying = !isPlaying; // Toggle playing state
     });
@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Optional: Reset icon when audio ends
     audioFile.addEventListener('ended', () => {
         isPlaying = false;
-        speakerImg.src = "../../01b-Home-Imgs/speaker-off.png"; // Reset to 'off' icon
+        speakerImg.src = "../../images/speaker-off.png"; // Reset to 'off' icon
     });
 });

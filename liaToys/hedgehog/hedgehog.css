@@ -26,11 +26,13 @@ main{
 .speaker-on{
     position: absolute;
     margin-left: 10rem;
+    z-index: 10
 }
 
 @media screen and (max-width: 768px) {
     .speaker-on{
-        right: 1rem;
+        right: -0.8rem;
+        z-index: 10;
     }
 }
 

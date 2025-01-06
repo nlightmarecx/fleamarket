@@ -5,6 +5,11 @@ header{
     padding: 1.4rem 1.1rem;
 }
 
+.go-back{
+    position: absolute;
+    top: 1rem;
+}
+
 .navbutton {
     text-decoration: none;
     font-family: 'Roboto', sans-serif, 'Times New Roman', Times, serif;
